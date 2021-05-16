@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1024px) {
+    /* General Style */
+        .header { left:10%; font-size: 25px; width: 80%; }
+        .icon { font-size: 17px; }
+        .font-style { font-size: 14px; }
+        .padding { padding: 20px 30px; }
+
+    /* Container Style */
+        .container { width:100%; }
+
+    /* Start Left Section */
+        #left-section { width: 40%;}
+
+        /* Start Main Information */
+            #left-section .main-info img { width: 60%; }
+            #left-section .main-info .name { font-size: 18px; }
+            #left-section .main-info .job { font-size: 17px; }
+        /* End Main Information */
+
+        /* Start Skills */
+            #left-section .skills .skills-body { font-size: 18px; }
+        /* End Skills */
+
+        /* Start Skills */
+            #left-section .skills .skills-body .skill-name { width:100%; margin-bottom: 5px; }
+            #left-section .skills .skills-body .skill-stars i { margin-left:10px; margin-bottom: 10px; }
+        /* End Skills */
+
+        /* Start Hobbies */
+            #left-section .hobbies .hobby-list>li { display: block; width: 100%; }
+        /* End Hobbies */
+    /* End Left Section */
+
+    /* Start Right Section */
+        #right-section { width: 60%; }
+        #right-section .time-line .time { color:#105982; width: 30%; }
+        #right-section .time-line .body { width: 70%;}
+    /* End Right Section */
+}
+
